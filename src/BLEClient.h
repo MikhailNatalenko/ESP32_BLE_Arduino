@@ -25,7 +25,6 @@ class BLERemoteService;
 class BLEClientCallbacks;
 class BLEAdvertisedDevice;
 
-#error
 /**
  * @brief A model of a %BLE client.
  */
