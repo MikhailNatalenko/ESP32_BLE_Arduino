@@ -125,6 +125,7 @@ void BLEScan::handleGAPEvent(
 					}
 
 					if (m_pAdvertisedDeviceCallbacks) {
+						m_pAdvertisedDeviceCallbacks->onResult(advertisedDevice);
 						m_pAdvertisedDeviceCallbacks->onResult(*advertisedDevice);
 					}
 					if(found)

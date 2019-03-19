@@ -20,7 +20,6 @@
 static const char* LOG_TAG = "FreeRTOS";
 #endif
 
-
 /**
  * Sleep for the specified number of milliseconds.
  * @param[in] ms The period in milliseconds for which to sleep.
